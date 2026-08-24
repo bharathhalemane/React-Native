@@ -1,7 +1,10 @@
+
+
 module.exports = {
   content: [
     "./src/app/**/*.{js,jsx,ts,tsx}",
-    "./src/components/**/*.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
+    "./components/MovieCard.tsx"
   ],
   presets: [require("nativewind/preset")],
   theme: {
@@ -9,6 +12,7 @@ module.exports = {
       colors: {
         primary: "#030014",
         secondary: "#151312",
+        accent: "#AB8BFF",
         light: {
           100: '#d6c6ff',
           200: "#a8b5db",
